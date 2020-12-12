@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Utilização de vídeos</title>
+</head>
+<body>
+    <div class="container">
+        <video class="video" autoplay src="./Assets/Videos/iPadMiniHold.mov"></video>
+
+        <div class="controls">
+            <img class="btn" onclick="rewind()" src="./Assets/Images/decrease.png" alt="">
+            <img class="btn" onclick="pause()" src="./Assets/Images/pause.png" alt="">
+            <img class="btn" onclick="play()" src="./Assets/Images/play.png" alt="">
+            <img class="btn" onclick="stop()" src="./Assets/Images/stop.png" alt="">
+            <img class="btn" onclick="increase()" src="./Assets/Images/increase.png" alt="">
+            <img class="btn" id="muted" onclick="mute()" src="./Assets/Images/muted.png" alt="">
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
